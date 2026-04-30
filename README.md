@@ -8,7 +8,7 @@ A curated collection of SQL scripts focused on data exploration, analytics, and 
 
 The analysis in this repository is built on a structured data warehouse created in a separate project:
 
-👉 Data Warehouse Repository
+👉 [Data Warehouse Repository](https://github.com/Tobi-design/sql-data-warehouse-project.git)
 
 This warehouse contains cleaned and modeled data across key entities such as customers, products, and sales. All SQL queries in this project are executed on top of that schema.
 
