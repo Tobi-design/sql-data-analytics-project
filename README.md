@@ -4,6 +4,22 @@ A curated collection of SQL scripts focused on data exploration, analytics, and 
 
 ---
 
+🏗️ Data Source
+
+The analysis in this repository is built on a structured data warehouse created in a separate project:
+
+👉 Data Warehouse Repository
+
+This warehouse contains cleaned and modeled data across key entities such as customers, products, and sales. All SQL queries in this project are executed on top of that schema.
+
+🧱 Data Model Overview
+
+The dataset is organized into the following core tables:
+
+customers — demographic details (e.g., age, location)
+products — product information (e.g., category, price)
+sales — transactional data (e.g., customer_id, product_id, amount, date)
+
 ## 🚀 Project Overview
 
 This repository contains structured SQL queries designed to analyze relational datasets efficiently. Each script focuses on a specific analytical objective and showcases best practices in writing clean, readable, and optimized SQL.
@@ -16,7 +32,6 @@ Key areas covered include:
 * 🔄 Cumulative and window function analytics
 * 🧩 Data segmentation and grouping
 * 📊 Reporting and insight generation
-
 
 
 ## 🛠️ Tools & Skills
